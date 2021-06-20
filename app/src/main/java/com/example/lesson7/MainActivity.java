@@ -20,7 +20,6 @@ public class MainActivity extends AppCompatActivity {
         final int Min = 1;
 
         int randomNumber = (int)(Math.random()*Max)+Min;
-        randomNumber = 91;
         int res = randomNumber/100;
         Log.d("lesson_7", "result = " + res);
         StringBuilder result = new StringBuilder();
