@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
 
         int randomNumber = (int)(Math.random()*Max)+Min;
         int res = randomNumber/100;
+        int res = 12313;
         Log.d("lesson_7", "result = " + res);
         StringBuilder result = new StringBuilder();
         List<String> units = new ArrayList<>(Arrays.asList("один", "два", "три",
