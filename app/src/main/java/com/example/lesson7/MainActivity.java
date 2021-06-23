@@ -26,16 +26,7 @@ public class MainActivity extends AppCompatActivity {
         StringBuilder result = new StringBuilder();
         List<String> units = new ArrayList<>(Arrays.asList("один", "два", "три",
                 "четыре", "пять", "шесть", "семь", "восемь", "девять"));
-        List<String> dozens = new ArrayList<>();
-        dozens.add("десять");
-        dozens.add("двадцать");
-        dozens.add("тридцать");
-        dozens.add("сорок");
-        dozens.add("пятьдесят");
-        dozens.add("шестьдесят");
-        dozens.add("семьдесят");
-        dozens.add("восемьдесят");
-        dozens.add("девяносто");
+
 
         List<String> hundreads = new ArrayList<>();
         hundreads.add("сто");
